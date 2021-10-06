@@ -51,8 +51,9 @@ void dequeue(int *head, int *tail){
             *head = *tail = -1;
         }else{
             (*head) = ((*head) + 1) % MAXSIZE;
-        printf("\t:: Data berhasil diproses\n");
         }
+        printf("\t:: Data berhasil diproses\n");
+       
     }
 }
 
